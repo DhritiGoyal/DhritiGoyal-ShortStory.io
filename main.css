@@ -1,0 +1,23 @@
+h1{
+	font-size:150px;
+}
+
+h2{
+	font-size: 100px;
+}
+
+.text{
+	font-size:100px;
+	font-family: 'helvetica';
+}
+
+.text:hover {
+font-size:0px;
+}
+
+.text:hover:after{
+content: attr(data-hover);
+background-color: black;
+color:white;
+font-size:120px;
+}
